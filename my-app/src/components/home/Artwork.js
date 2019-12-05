@@ -83,8 +83,8 @@ export default function Artwork() {
 
 
     return(
-    <>
-     <h1 className='margintext'>ARTWORK</h1>
+    <div className='mainbox'>
+     <h1>ARTWORK</h1>
 
         <div id="myModal" className="modal">
             <div class="modal-content">
@@ -104,6 +104,6 @@ export default function Artwork() {
                 <img className='myImgs' onClick={Click7} src={Well}/>
             </div>
         </div>
-    </>
+    </div>
     )
 }

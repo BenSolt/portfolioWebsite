@@ -15,7 +15,7 @@ export default function Home() {
       <div className='mainbox'>
 
         <div className='name'>
-          <h1>Benjamin Solt</h1>
+          <h1>BENJAMIN SOLT</h1>
         </div>
 
         <div className="section1">

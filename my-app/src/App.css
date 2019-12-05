@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  border: 2px solid yellow;
 }
 
 .dark-mode {
@@ -7,21 +8,10 @@
   background-color: #313843;
 }
 
-/* .App-logo {
-  height: 40vmin;
+.mainbox{
+  margin: 0 5% 0 5%;
+   height: 80vh;
+  /* min-height: calc(80vh); */
+  /* height: 80vmin; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-} */

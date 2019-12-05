@@ -10,8 +10,8 @@ export default function Artwork() {
 
 
     return(
-        <div>
-            <h1 className='margintext'>CODE PROJECTS</h1>
+        <div className='mainbox'>
+            <h1>CODE PROJECTS</h1>
             <button class="btn" onClick={openReactRedux}>React Redux</button>
             
         </div>
