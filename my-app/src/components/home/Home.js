@@ -1,5 +1,5 @@
 import React from "react";
-import BenKaylee from '../images/BenandKaylee.jpg'; 
+import BenKaylee from '../../images/BenandKaylee.jpg'; 
 
 export default function Home() {
 
@@ -21,22 +21,22 @@ export default function Home() {
         <div className="section1">
             <img class='imgBenKaylee'src={BenKaylee} alt="BenandKaylee(dog)" />
             <div class="textholder1">
-              <p> Currently, I am attending school at Lambda, online, for Web Design. I love
+              <h3> Currently, I am attending school at Lambda, online, for Web Design. I love
                 it and cant wait to use my experiences in the working world.
                 <br/>
                 <br/>
                 Apart from attending Lambda, I hang out with family, friends, and play sports. I also enjoy
                 creating artwork on the computer, working with the Unreal Game Engine, and
                 the occasional video game with friends.
-              </p>
+              </h3>
             </div>
         </div>
 
         <div className="sectionContact">
 
           <div className="contactbox">
-              <h4 className="margintext2">Email: Bensolt@gmail.com</h4>
-              <h4 className="margintext2">Cell#: 215-360-5410</h4>
+              <h2 className="margintext2">Email: Bensolt@gmail.com</h2>
+              <h2 className="margintext2">Cell#: 215-360-5410</h2>
               <button class="btn" onClick={openGitHub}>GitHub</button> 
               <button class="btn" onClick={openLinkedIn}>LinkedIn2</button>
           </div>
