@@ -1,76 +1,37 @@
 .Navbarholder {
-    padding: 25px;
     background: black;
-    /* display: flex; */
-    
-    
+    border: 2px solid red;
+    padding: 10px 0 10px 0;
 }
-
-    @media only screen and (max-width: 500px) {
-        .Navbarholder{
-            padding: 12px;
-        }
-    }
-
 
 .flexnav{
     display: flex;
+    /* background: black;  */
     justify-content: space-evenly;
-    /* border: 2px solid red; */
+    /* border: 2px solid green; */
 }
-
-
-@media only screen and (max-width: 800px) {
-    .flexnav{
-        display: flex;
-        flex-wrap: wrap;  
-    }
-}
-
-
-    @media only screen and (max-width: 500px) {
-        .flexnav{
-            display: flex;
-            flex-wrap: wrap;  
-            /* border: 2px solid yellow; */
-        }
-    }
-
   
 .logo{
+    /* display: none; */
     width: 256px;
     height: auto;
-    /* border: 2px solid orange; */
+    /* border: 2px solid lightblue; */
 }
 
-    @media only screen and (max-width: 500px) {
-        .logo{
-            display: none;  
-        }
-    }
-
-
-.navlinkholder{
-    padding: 5px;
-    /* border: 2px solid green; */
-    
+nav{
+    display: flex;
+    /* border: 2px solid blue; */
 }
-
-/* .navlink:active{
-    background: rgb(0, 129, 250);
-} */
 
 .navlink{
     color: white;
-    /* border: 2px solid black; */
-    padding: 25px 45px 25px 45px;
-    margin: 0 45px 0 35px; 
+    padding: 15px;
+    margin: 10px; 
     border-radius: 2px;
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: bold;
-    background:  rgb(95, 95, 95);
-    
+    background:  rgb(95, 95, 95);   
 }
 
 .navlink:hover{
@@ -78,20 +39,6 @@
     background:  red;
 }
   
-    @media only screen and (max-width: 500px) {
-
-        .navlink{
-            color: white;
-            padding: 15px;
-            margin: 0 8px 0 8px; 
-            border-radius: 2px;
-            font-size: 1rem;
-            text-decoration: none;
-            font-weight: bold;
-            background:  rgb(95, 95, 95);
-        }
-    }
-
 .Navbarholderhalo {
     padding: 7px;
     background: grey;  
@@ -114,27 +61,20 @@ padding: 0 15px 0 15px;
     background: rgb(0, 78, 180);
 }
 
-
-
 .navlinkHalo:hover{
     /* color: white; */
-    background: rgb(0, 129, 250);
-  
+    background: rgb(0, 129, 250);  
 }
 
-nav{
-    display: flex;
-    justify-content: center;
-}
 
 /* ////////////////////////////////////////////////////////////////////// */
 /*////////////////////////// TOGGLE SWITCH for darkmode /////////////////*/
 /* ///////////////////////////////////////////////////////////////////// */
 
-.NavbarholderDark {
+.darkModeHolder {
     align-items: center;
     display: flex; 
-    /* border: 2px solid green;  */
+    /* border: 2px solid orange;  */
   }
 
 .dark-mode__toggle {

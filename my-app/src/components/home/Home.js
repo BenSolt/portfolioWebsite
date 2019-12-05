@@ -25,9 +25,8 @@ export default function Home() {
                 it and cant wait to use my experiences in the working world.
                 <br/>
                 <br/>
-                Apart from attending Lambda, I hang out with family, friends, and play sports. I also enjoy
-                creating artwork on the computer, working with the Unreal Game Engine, and
-                the occasional video game with friends.
+                In addition to attending Lambda, I enjoy hanging out with family/friends, playing sports,
+                and working with the Unreal Engine. 
               </h3>
             </div>
         </div>

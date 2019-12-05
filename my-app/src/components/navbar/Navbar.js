@@ -21,15 +21,15 @@ export default function Navbar() {
         <div className='flexnav'>
         <img className='logo' src={MyLogo}/>
 
-            <nav className='navlinkholder'>
-               
+          
+            <nav>
                 <NavLink className='navlink' to='/'>HOME</NavLink>
                 <NavLink className='navlink' to='/codework'>CODE </NavLink> 
                 <NavLink className='navlink' to='/artwork'>ARTWORK</NavLink> 
-           
-           
+                <NavLink className='navlink' to='/unreal'>UNREAL ENGINE</NavLink> 
             </nav>
-            <div className="NavbarholderDark">
+
+            <div className="darkModeHolder">
                 <h4 className="navtext">Darkmode</h4>
                 <div className="dark-mode__toggle">
                     <div

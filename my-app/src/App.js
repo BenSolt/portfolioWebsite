@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import './css/navbar.css';
+import './css/navbarMedia.css';
 import './css/home.css';
 import './css/artworkk.css';
 
