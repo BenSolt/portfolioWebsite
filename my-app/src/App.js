@@ -5,6 +5,7 @@ import './css/navbar.css';
 import './css/navbarMedia.css';
 import './css/home.css';
 import './css/artworkk.css';
+import './css/artworkkMedia.css';
 
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';

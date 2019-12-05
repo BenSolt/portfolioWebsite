@@ -29,10 +29,6 @@
     border: 2px solid black;    
 }
 
-#gameScreen {
-    border: 2px solid black;
-}
-
 .margintext1{
     margin: 5px 0 0 0;
 }
@@ -54,20 +50,23 @@ li{
 
 /* ABOUT ME - Section 1 */
 .mainbox{
-    margin: 0 3% 0 3%;
+    margin: 0 5% 0 5%;
     /* border: 2px solid black; */
 }
 
 /* IMAGE BEN AND KAYLEE */
 .section1{
 display:flex;
-/* border: 2px solid red; */
+/* border: 2px solid green; */
 }
+
+   
+
 
     @media only screen and (max-width: 500px) {
         .section1{
         flex-direction: column;
-        /* background: red; */
+        display: block;
         }
     }
 
@@ -88,13 +87,19 @@ display:flex;
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 800px) {
         .imgBenKaylee{
         height:auto;
         width: 320px;
         }
     }
 
+    @media only screen and (max-width: 500px) {
+            .imgBenKaylee{
+            height:auto;
+            width: 256px;
+            }
+        }
 
 /* END BEN AND KAYLEE */
 
@@ -108,21 +113,41 @@ display:flex;
 /* SECTION 2 */
 .sectionContact{
     display:flex;
+    /* flex-direction: column; */
     justify-content: space-between;
     margin: 15px 35px 0 35px;
-    border-top: 2px solid black;
+    border-top: 3px solid black;
     /* border: 2px solid black; */
 }
 
- 
 
-/* .contactbox{
-    border: 2px solid red;
-} */
+    @media only screen and (max-width: 500px) {
+    
+        .sectionContact{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 15px 0 15px 0;
+            border-top: 2px solid black;
+           
+        }
 
-/* .skillbox{
-    border: 2px solid red;
-} */
+    }
+
+    @media only screen and (max-width: 320px) {
+
+        .sectionContact{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 5px;
+            padding: 10px 0 10px 0;
+            border-top: 2px solid black;
+           
+        }
+    }
+
+
 
 .ulholder{
     display: flex;

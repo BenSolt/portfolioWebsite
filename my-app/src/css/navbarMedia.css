@@ -1,7 +1,6 @@
 @media only screen and (max-width: 500px) {
     .Navbarholder{
         padding: 10px 0 10px 0;
-        border: 2px solid red;
     }
 }
 
@@ -15,7 +14,7 @@
 
 @media only screen and (max-width: 500px) {
     .logo{
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         /* border: 2px solid lightblue;   */
     }
 }
